@@ -1,0 +1,135 @@
+#container{
+    margin: auto;
+    margin-top: 20px;
+    width: 900px;
+    height: auto;
+    
+}
+nav{
+    width: 900px;
+    height: 80px;
+    background-color: rgb(129, 159, 179);
+    
+}
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    line-height: 30px;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding: 5px;
+    width: 140px;
+    padding-top: 20px;
+    display: block;
+}
+nav ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+header{
+    margin-top: 3px;
+    width: 900px;
+    height: 300px;
+    background-image: url(res/banner.jpg);
+}
+section{
+    width: 900px;
+    height: auto;
+}
+aside{
+    width: 900px;
+    height: auto;
+    margin-top: 5px;
+    background-color: rgb(179, 148, 170);
+    float: left;
+    color:#009742;
+    font-weight: bold;
+    text-align: center;
+}
+footer{
+    width: 900px;
+    height: 50px;
+    margin-top: 5px;
+    background-color: rgb(129, 159, 179);
+    float:left ;
+    padding: 0px;
+    margin: 0px;
+}
+aside div{
+    float: left;
+}
+h1{
+    color: #000;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}p{
+    color: rgb(61, 0, 0); ;
+    font-family: Arial, Helvetica, sans-serif;
+   text-align: justify;
+}
+.img{
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.resim{
+    width: 200px;
+    height: 200px;
+    border: 5px solid rgb(36, 180, 67);
+    margin-left: 3px;
+}
+.res{
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(36, 180, 67);
+    margin-left: 3px;
+}
+aside ul{
+    list-style-type: none;
+}
+aside ul li a{
+    text-decoration: none;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    line-height: 30px;
+    color: rgb(15, 15, 15);
+    text-align: center;
+}
+aside ul li a:hover{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bold;
+}
+#kenar{
+    width: 890px;
+    border: 5px dashed rgb(129, 159, 179);
+}
+.geri{
+    font-size: 12px;
+    color: black;
+    text-align: justify;
+    text-decoration: none;
+}
+.geri a:hover{
+    font-size: 20px;
+    font-weight: bold;
+    color: antiquewhite;
+}
+#yazii2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(38, 107, 53);
+}
+
+
